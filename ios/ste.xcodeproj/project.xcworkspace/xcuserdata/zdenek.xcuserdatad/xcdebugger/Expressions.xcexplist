@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TextureItem.setTextureCoordsRect(coords : CGPoint, rect : CGRect, visibleRect : CGRect) -&gt; ():TextureItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vertices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TextureItem.setTextureCoordsRect(coords : CGPoint, rect : CGRect, visibleRect : CGRect, totalCustomSize : CGSize) -&gt; ():TextureItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textureCoords">
+            </PersistentString>
+            <PersistentString
+               value = "vertices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

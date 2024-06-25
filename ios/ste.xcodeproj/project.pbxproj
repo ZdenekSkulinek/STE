@@ -1,0 +1,1270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB08BCAF1D5729FC00166AF5 /* loco_red.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCAA1D5729FC00166AF5 /* loco_red.png */; };
+		BB08BCB01D5729FC00166AF5 /* passenger_car_green.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCAB1D5729FC00166AF5 /* passenger_car_green.png */; };
+		BB08BCB11D5729FC00166AF5 /* passenger_car_cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCAC1D5729FC00166AF5 /* passenger_car_cyan.png */; };
+		BB08BCB21D5729FC00166AF5 /* passenger_car_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCAD1D5729FC00166AF5 /* passenger_car_yellow.png */; };
+		BB08BCB31D5729FC00166AF5 /* passenger_car_red.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCAE1D5729FC00166AF5 /* passenger_car_red.png */; };
+		BB08BCB91D574D0D00166AF5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCB41D574D0D00166AF5 /* Car.swift */; };
+		BB08BCBA1D574D0D00166AF5 /* CarPassengerCyan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCB51D574D0D00166AF5 /* CarPassengerCyan.swift */; };
+		BB08BCBB1D574D0D00166AF5 /* CarPassengerRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCB61D574D0D00166AF5 /* CarPassengerRed.swift */; };
+		BB08BCBC1D574D0D00166AF5 /* CarPassengerSilverblue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCB71D574D0D00166AF5 /* CarPassengerSilverblue.swift */; };
+		BB08BCBD1D574D0D00166AF5 /* CarPassengerYellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCB81D574D0D00166AF5 /* CarPassengerYellow.swift */; };
+		BB08BCBF1D576BE800166AF5 /* passenger_car_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCBE1D576BE800166AF5 /* passenger_car_1.png */; };
+		BB08BCC11D576C0600166AF5 /* CarPassengerModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCC01D576C0600166AF5 /* CarPassengerModel1.swift */; };
+		BB08BCC41D57D8FB00166AF5 /* CarPassengerModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCC21D57D8FB00166AF5 /* CarPassengerModel2.swift */; };
+		BB08BCC51D57D8FB00166AF5 /* CarPassengerModelPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCC31D57D8FB00166AF5 /* CarPassengerModelPost.swift */; };
+		BB08BCC81D57D97900166AF5 /* passenger_car_post.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCC61D57D97900166AF5 /* passenger_car_post.png */; };
+		BB08BCC91D57D97900166AF5 /* passenger_car_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCC71D57D97900166AF5 /* passenger_car_2.png */; };
+		BB08BCCB1D57DB1D00166AF5 /* cargo_car_container.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCCA1D57DB1D00166AF5 /* cargo_car_container.png */; };
+		BB08BCCD1D57DB2A00166AF5 /* CarCargoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCCC1D57DB2A00166AF5 /* CarCargoContainer.swift */; };
+		BB08BCD01D57E1FF00166AF5 /* CarCargoPipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCCE1D57E1FF00166AF5 /* CarCargoPipes.swift */; };
+		BB08BCD11D57E1FF00166AF5 /* CarCargoWood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCCF1D57E1FF00166AF5 /* CarCargoWood.swift */; };
+		BB08BCD41D57E22800166AF5 /* cargo_car_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCD21D57E22800166AF5 /* cargo_car_wood.png */; };
+		BB08BCD51D57E22800166AF5 /* cargo_car_pipes.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCD31D57E22800166AF5 /* cargo_car_pipes.png */; };
+		BB08BCDB1D58964900166AF5 /* passenger_car_express_loco.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCD61D58964900166AF5 /* passenger_car_express_loco.png */; };
+		BB08BCDC1D58964900166AF5 /* passenger_car_express_right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCD71D58964900166AF5 /* passenger_car_express_right.png */; };
+		BB08BCDD1D58964900166AF5 /* passenger_car_express_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCD81D58964900166AF5 /* passenger_car_express_mid.png */; };
+		BB08BCDE1D58964900166AF5 /* loco_express.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCD91D58964900166AF5 /* loco_express.png */; };
+		BB08BCDF1D58964900166AF5 /* passenger_car_express_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCDA1D58964900166AF5 /* passenger_car_express_left.png */; };
+		BB08BCE11D589E7400166AF5 /* CarPassengerExpressMid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCE01D589E7400166AF5 /* CarPassengerExpressMid.swift */; };
+		BB08BCE41D58A21000166AF5 /* CarPassengerExpressLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCE21D58A21000166AF5 /* CarPassengerExpressLeft.swift */; };
+		BB08BCE51D58A21000166AF5 /* CarPassengerExpressRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCE31D58A21000166AF5 /* CarPassengerExpressRight.swift */; };
+		BB08BCE71D58AB7D00166AF5 /* PantografRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCE61D58AB7D00166AF5 /* PantografRight.swift */; };
+		BB08BCE91D58E78300166AF5 /* pantograf_right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCE81D58E78300166AF5 /* pantograf_right.png */; };
+		BB08BCEB1D58E9C700166AF5 /* PantografLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCEA1D58E9C700166AF5 /* PantografLeft.swift */; };
+		BB08BCED1D58EA4C00166AF5 /* pantograf_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCEC1D58EA4C00166AF5 /* pantograf_left.png */; };
+		BB08BCEF1D59137500166AF5 /* Loco.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCEE1D59137500166AF5 /* Loco.swift */; };
+		BB08BCF61D591A2C00166AF5 /* passenger_car_historic_post_r.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCF01D591A2C00166AF5 /* passenger_car_historic_post_r.png */; };
+		BB08BCF71D591A2C00166AF5 /* passenger_car_historic_post_m.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCF11D591A2C00166AF5 /* passenger_car_historic_post_m.png */; };
+		BB08BCF81D591A2C00166AF5 /* passenger_car_historic_post_l.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCF21D591A2C00166AF5 /* passenger_car_historic_post_l.png */; };
+		BB08BCF91D591A2C00166AF5 /* passenger_car_historic_r.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCF31D591A2C00166AF5 /* passenger_car_historic_r.png */; };
+		BB08BCFA1D591A2C00166AF5 /* passenger_car_historic_m.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCF41D591A2C00166AF5 /* passenger_car_historic_m.png */; };
+		BB08BCFB1D591A2C00166AF5 /* passenger_car_historic_l.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BCF51D591A2C00166AF5 /* passenger_car_historic_l.png */; };
+		BB08BCFD1D591DCB00166AF5 /* CarPassengerExpressLoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCFC1D591DCB00166AF5 /* CarPassengerExpressLoco.swift */; };
+		BB08BD011D5923A300166AF5 /* CarPassengerHistoricL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCFE1D5923A300166AF5 /* CarPassengerHistoricL.swift */; };
+		BB08BD021D5923A300166AF5 /* CarPassengerHistoricM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BCFF1D5923A300166AF5 /* CarPassengerHistoricM.swift */; };
+		BB08BD031D5923A300166AF5 /* CarPassengerHistoricR.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BD001D5923A300166AF5 /* CarPassengerHistoricR.swift */; };
+		BB08BD051D5A6DCC00166AF5 /* LocoDieselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08BD041D5A6DCC00166AF5 /* LocoDieselModel.swift */; };
+		BB08BD081D5A6DFC00166AF5 /* loco_model_diesel.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BD061D5A6DFC00166AF5 /* loco_model_diesel.png */; };
+		BB08BD091D5A6DFC00166AF5 /* loco_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08BD071D5A6DFC00166AF5 /* loco_blue.png */; };
+		BB17CEC720421F8600B8DADE /* man_v.png in Resources */ = {isa = PBXBuildFile; fileRef = BB17CEC620421F8600B8DADE /* man_v.png */; };
+		BB24760F1D3EC34E005568E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24760E1D3EC34E005568E9 /* AppDelegate.swift */; };
+		BB2476181D3EC34E005568E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2476161D3EC34E005568E9 /* Main.storyboard */; };
+		BB24761A1D3EC34E005568E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2476191D3EC34E005568E9 /* Assets.xcassets */; };
+		BB24761D1D3EC34E005568E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB24761B1D3EC34E005568E9 /* LaunchScreen.storyboard */; };
+		BB2476281D3EC34E005568E9 /* steTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2476271D3EC34E005568E9 /* steTests.swift */; };
+		BB2476331D3EC34E005568E9 /* steUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2476321D3EC34E005568E9 /* steUITests.swift */; };
+		BB3EBBF21E7355B700E8ED7D /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3EBBF11E7355B700E8ED7D /* launchscreen.png */; };
+		BB546A8C1F9547A700E64ED7 /* rail.png in Resources */ = {isa = PBXBuildFile; fileRef = BB546A8B1F9547A700E64ED7 /* rail.png */; };
+		BB546A8E1F954ACE00E64ED7 /* Rail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB546A8D1F954ACE00E64ED7 /* Rail.swift */; };
+		BB546A901F954F0F00E64ED7 /* RailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB546A8F1F954F0F00E64ED7 /* RailView.swift */; };
+		BB5830821D71C844004E1DFB /* CarPassengerHistoricPostL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB58307D1D71C844004E1DFB /* CarPassengerHistoricPostL.swift */; };
+		BB5830831D71C844004E1DFB /* CarPassengerHistoricPostM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB58307E1D71C844004E1DFB /* CarPassengerHistoricPostM.swift */; };
+		BB5830841D71C844004E1DFB /* CarPassengerHistoricPostR.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB58307F1D71C844004E1DFB /* CarPassengerHistoricPostR.swift */; };
+		BB5830851D71C844004E1DFB /* CarPassengerHistoricTender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5830801D71C844004E1DFB /* CarPassengerHistoricTender.swift */; };
+		BB5830861D71C844004E1DFB /* LocoSteam.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5830811D71C844004E1DFB /* LocoSteam.swift */; };
+		BB5830881D71E947004E1DFB /* LocoExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5830871D71E947004E1DFB /* LocoExpress.swift */; };
+		BB58308A1D720108004E1DFB /* Man.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5830891D720108004E1DFB /* Man.swift */; };
+		BB58308C1D7201C9004E1DFB /* ManView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB58308B1D7201C9004E1DFB /* ManView.swift */; };
+		BB5F32822066489500603A40 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F32812066489500603A40 /* DraggableView.swift */; };
+		BB5F32842066590600603A40 /* DropableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F32832066590600603A40 /* DropableView.swift */; };
+		BB5F328620665A6700603A40 /* ParentalGateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F328520665A6700603A40 /* ParentalGateViewController.swift */; };
+		BB5F3289206676FA00603A40 /* icondrag.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5F3287206676F800603A40 /* icondrag.png */; };
+		BB5F328A206676FA00603A40 /* icondrop.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5F3288206676F900603A40 /* icondrop.png */; };
+		BB5F328C2066D21D00603A40 /* icondrophl.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5F328B2066D21D00603A40 /* icondrophl.png */; };
+		BB5F328E2066EB6100603A40 /* DraggableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F328D2066EB6100603A40 /* DraggableDelegate.swift */; };
+		BB694CC41D5DC0FB006A25F6 /* LocoElectricRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB694CC31D5DC0FB006A25F6 /* LocoElectricRed.swift */; };
+		BB694CC61D63A23E006A25F6 /* LocoElectricBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB694CC51D63A23E006A25F6 /* LocoElectricBlue.swift */; };
+		BB694CCA1D63B0BD006A25F6 /* loco_historic.png in Resources */ = {isa = PBXBuildFile; fileRef = BB694CC71D63B0BD006A25F6 /* loco_historic.png */; };
+		BB694CCB1D63B0BD006A25F6 /* cargo_car_historic_tender.png in Resources */ = {isa = PBXBuildFile; fileRef = BB694CC81D63B0BD006A25F6 /* cargo_car_historic_tender.png */; };
+		BB694CCC1D63B0BD006A25F6 /* loco_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB694CC91D63B0BD006A25F6 /* loco_yellow.png */; };
+		BB694CCE1D63B163006A25F6 /* LocoDieselYellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB694CCD1D63B163006A25F6 /* LocoDieselYellow.swift */; };
+		BB694CD21D63B42F006A25F6 /* cargo_car_container_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = BB694CCF1D63B42F006A25F6 /* cargo_car_container_gray.png */; };
+		BB694CD31D63B42F006A25F6 /* cargo_car_chasis.png in Resources */ = {isa = PBXBuildFile; fileRef = BB694CD01D63B42F006A25F6 /* cargo_car_chasis.png */; };
+		BB694CD41D63B42F006A25F6 /* cargo_car_container_red.png in Resources */ = {isa = PBXBuildFile; fileRef = BB694CD11D63B42F006A25F6 /* cargo_car_container_red.png */; };
+		BB694CD61D63B6E8006A25F6 /* CarCargoContainerRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB694CD51D63B6E8006A25F6 /* CarCargoContainerRed.swift */; };
+		BB694CD91D63B83A006A25F6 /* CarCargoContainerGray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB694CD71D63B83A006A25F6 /* CarCargoContainerGray.swift */; };
+		BB694CDA1D63B83A006A25F6 /* CarCargoChasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB694CD81D63B83A006A25F6 /* CarCargoChasis.swift */; };
+		BB7E8D841F7599800077C7AA /* Demon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E8D831F7599800077C7AA /* Demon.swift */; };
+		BB7E8D861F77A47E0077C7AA /* DemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E8D851F77A47E0077C7AA /* DemonView.swift */; };
+		BB7E8D8C1F77AD160077C7AA /* demon_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7E8D871F77AD160077C7AA /* demon_0.png */; };
+		BB7E8D8D1F77AD160077C7AA /* demon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7E8D881F77AD160077C7AA /* demon_1.png */; };
+		BB7E8D8E1F77AD160077C7AA /* demon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7E8D891F77AD160077C7AA /* demon_2.png */; };
+		BB7E8D8F1F77AD160077C7AA /* demon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7E8D8A1F77AD160077C7AA /* demon_3.png */; };
+		BB7E8D901F77AD160077C7AA /* demon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7E8D8B1F77AD160077C7AA /* demon_d.png */; };
+		BB81D3B41D8881E0003725C3 /* Lintel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81D3B31D8881E0003725C3 /* Lintel.swift */; };
+		BB81D3B61D888FB6003725C3 /* LintelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81D3B51D888FB5003725C3 /* LintelView.swift */; };
+		BB81D3B91D889257003725C3 /* lintel.png in Resources */ = {isa = PBXBuildFile; fileRef = BB81D3B71D889257003725C3 /* lintel.png */; };
+		BB81D3BA1D889257003725C3 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = BB81D3B81D889257003725C3 /* warning.png */; };
+		BB888B9D1D4012D8008AFC7B /* ExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB888B9C1D4012D8008AFC7B /* ExpressViewController.swift */; };
+		BB888B9F1D4017EC008AFC7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB888B9E1D4017EC008AFC7B /* Constants.swift */; };
+		BB9796D4212F0A3B00854F20 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9796CE212F0A3A00854F20 /* help.png */; };
+		BB9796D6212F0AB300854F20 /* helpicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9796D5212F0AB300854F20 /* helpicon.png */; };
+		BB9796D8212F0BF900854F20 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9796D7212F0BF900854F20 /* HelpViewController.swift */; };
+		BB9A25EF1E4BB403001910A7 /* LivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A25EE1E4BB403001910A7 /* LivesView.swift */; };
+		BB9A25F11E4BBFE5001910A7 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A25F01E4BBFE5001910A7 /* Bullet.swift */; };
+		BB9A25F31E4BBFFC001910A7 /* BulletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A25F21E4BBFFC001910A7 /* BulletView.swift */; };
+		BBB33BE81D49461200A656D0 /* TextureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33BE71D49461200A656D0 /* TextureItem.swift */; };
+		BBB33C281D4D485400A656D0 /* TextureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33C271D4D485400A656D0 /* TextureManager.swift */; };
+		BBB33C2A1D4D60A600A656D0 /* GraphicObjectBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33C291D4D60A600A656D0 /* GraphicObjectBase.swift */; };
+		BBB33C2C1D4E88DC00A656D0 /* ModelObjectBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33C2B1D4E88DC00A656D0 /* ModelObjectBase.swift */; };
+		BBB33C311D4E937900A656D0 /* CarPassengerGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33C301D4E937900A656D0 /* CarPassengerGreen.swift */; };
+		BBB33C341D4EA08000A656D0 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33C331D4EA08000A656D0 /* CarView.swift */; };
+		BBB33C361D4EA44E00A656D0 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB33C351D4EA44E00A656D0 /* Scene.swift */; };
+		BBBA22AB2069A1E7008D96A2 /* DraggableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBA22AA2069A1E7008D96A2 /* DraggableView.xib */; };
+		BBC248621F82DDFA006E1F18 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC248611F82DDFA006E1F18 /* bullet.png */; };
+		BBC439C92049C84E00CA39FF /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC439C82049C84D00CA39FF /* IAPHelper.swift */; };
+		BBC439CD204B1BB500CA39FF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC439CC204B1BB500CA39FF /* StoreKit.framework */; };
+		BBC439CF204DF42D00CA39FF /* IAPProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC439CE204DF42D00CA39FF /* IAPProducts.swift */; };
+		BBE413281E3655EC0042B840 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE413271E3655EC0042B840 /* StartViewController.swift */; };
+		BBE4132C1E365EC50042B840 /* iconbuy.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE413291E365EC50042B840 /* iconbuy.png */; };
+		BBE4132D1E365EC50042B840 /* iconhof.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE4132A1E365EC50042B840 /* iconhof.png */; };
+		BBE4132E1E365EC50042B840 /* iconplay.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE4132B1E365EC50042B840 /* iconplay.png */; };
+		BBE413301E366D890042B840 /* HOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4132F1E366D890042B840 /* HOF.swift */; };
+		BBE413321E366EAF0042B840 /* HOFLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE413311E366EAF0042B840 /* HOFLine.swift */; };
+		BBE413341E367E330042B840 /* HOFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE413331E367E330042B840 /* HOFTableViewCell.swift */; };
+		BBE413361E368F9C0042B840 /* HOFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE413351E368F9C0042B840 /* HOFViewController.swift */; };
+		BBE413381E369DD40042B840 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE413371E369DD40042B840 /* AddViewController.swift */; };
+		BBEA48761E3D5D6C001C3BE3 /* extratime.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEA48751E3D5D6C001C3BE3 /* extratime.png */; };
+		BBEA48781E3FC8BD001C3BE3 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA48771E3FC8BD001C3BE3 /* BuyViewController.swift */; };
+		BBEA487A1E428DEF001C3BE3 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA48791E428DEF001C3BE3 /* KeychainService.swift */; };
+		BBF6B1AE1D83F00100671A01 /* man_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1A81D83F00100671A01 /* man_0.png */; };
+		BBF6B1AF1D83F00100671A01 /* man_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1A91D83F00100671A01 /* man_1.png */; };
+		BBF6B1B01D83F00100671A01 /* man_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1AA1D83F00100671A01 /* man_2.png */; };
+		BBF6B1B11D83F00100671A01 /* man_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1AB1D83F00100671A01 /* man_3.png */; };
+		BBF6B1B21D83F00100671A01 /* man_f.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1AC1D83F00100671A01 /* man_f.png */; };
+		BBF6B1B31D83F00100671A01 /* man_l.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1AD1D83F00100671A01 /* man_l.png */; };
+		BBF6B1B51D8483C100671A01 /* LocoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6B1B41D8483C100671A01 /* LocoView.swift */; };
+		BBF6B1C01D85BD2100671A01 /* char_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1B61D85BD2100671A01 /* char_0.png */; };
+		BBF6B1C11D85BD2100671A01 /* char_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1B71D85BD2100671A01 /* char_1.png */; };
+		BBF6B1C21D85BD2100671A01 /* char_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1B81D85BD2100671A01 /* char_2.png */; };
+		BBF6B1C31D85BD2100671A01 /* char_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1B91D85BD2100671A01 /* char_3.png */; };
+		BBF6B1C41D85BD2100671A01 /* char_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1BA1D85BD2100671A01 /* char_4.png */; };
+		BBF6B1C51D85BD2100671A01 /* char_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1BB1D85BD2100671A01 /* char_5.png */; };
+		BBF6B1C61D85BD2100671A01 /* char_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1BC1D85BD2100671A01 /* char_6.png */; };
+		BBF6B1C71D85BD2100671A01 /* char_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1BD1D85BD2100671A01 /* char_7.png */; };
+		BBF6B1C81D85BD2100671A01 /* char_8.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1BE1D85BD2100671A01 /* char_8.png */; };
+		BBF6B1C91D85BD2100671A01 /* char_9.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1BF1D85BD2100671A01 /* char_9.png */; };
+		BBF6B1CB1D85BD4600671A01 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6B1CA1D85BD4600671A01 /* Time.swift */; };
+		BBF6B1CD1D85BD5700671A01 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6B1CC1D85BD5700671A01 /* TimeView.swift */; };
+		BBF6B1CF1D85E16600671A01 /* Pillar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6B1CE1D85E16600671A01 /* Pillar.swift */; };
+		BBF6B1D11D85E2BE00671A01 /* pillar.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6B1D01D85E2BE00671A01 /* pillar.png */; };
+		BBF6B1D31D85E52B00671A01 /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6B1D21D85E52B00671A01 /* Rope.swift */; };
+		BBF6B1D51D85E7C100671A01 /* RopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6B1D41D85E7C100671A01 /* RopeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2476241D3EC34E005568E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2476031D3EC34E005568E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB24760A1D3EC34E005568E9;
+			remoteInfo = ste;
+		};
+		BB24762F1D3EC34E005568E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2476031D3EC34E005568E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB24760A1D3EC34E005568E9;
+			remoteInfo = ste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E950C2B36CCF6625DA84421 /* Pods_steUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_steUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2934D2EC75C3610D4916ED99 /* Pods_steTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_steTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB08BCAA1D5729FC00166AF5 /* loco_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loco_red.png; path = gfx/loco_red.png; sourceTree = "<group>"; };
+		BB08BCAB1D5729FC00166AF5 /* passenger_car_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_green.png; path = gfx/passenger_car_green.png; sourceTree = "<group>"; };
+		BB08BCAC1D5729FC00166AF5 /* passenger_car_cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_cyan.png; path = gfx/passenger_car_cyan.png; sourceTree = "<group>"; };
+		BB08BCAD1D5729FC00166AF5 /* passenger_car_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_yellow.png; path = gfx/passenger_car_yellow.png; sourceTree = "<group>"; };
+		BB08BCAE1D5729FC00166AF5 /* passenger_car_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_red.png; path = gfx/passenger_car_red.png; sourceTree = "<group>"; };
+		BB08BCB41D574D0D00166AF5 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		BB08BCB51D574D0D00166AF5 /* CarPassengerCyan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerCyan.swift; sourceTree = "<group>"; };
+		BB08BCB61D574D0D00166AF5 /* CarPassengerRed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerRed.swift; sourceTree = "<group>"; };
+		BB08BCB71D574D0D00166AF5 /* CarPassengerSilverblue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerSilverblue.swift; sourceTree = "<group>"; };
+		BB08BCB81D574D0D00166AF5 /* CarPassengerYellow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerYellow.swift; sourceTree = "<group>"; };
+		BB08BCBE1D576BE800166AF5 /* passenger_car_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_1.png; path = gfx/passenger_car_1.png; sourceTree = "<group>"; };
+		BB08BCC01D576C0600166AF5 /* CarPassengerModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerModel1.swift; sourceTree = "<group>"; };
+		BB08BCC21D57D8FB00166AF5 /* CarPassengerModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerModel2.swift; sourceTree = "<group>"; };
+		BB08BCC31D57D8FB00166AF5 /* CarPassengerModelPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerModelPost.swift; sourceTree = "<group>"; };
+		BB08BCC61D57D97900166AF5 /* passenger_car_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_post.png; path = gfx/passenger_car_post.png; sourceTree = "<group>"; };
+		BB08BCC71D57D97900166AF5 /* passenger_car_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_2.png; path = gfx/passenger_car_2.png; sourceTree = "<group>"; };
+		BB08BCCA1D57DB1D00166AF5 /* cargo_car_container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_container.png; path = gfx/cargo_car_container.png; sourceTree = "<group>"; };
+		BB08BCCC1D57DB2A00166AF5 /* CarCargoContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCargoContainer.swift; sourceTree = "<group>"; };
+		BB08BCCE1D57E1FF00166AF5 /* CarCargoPipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCargoPipes.swift; sourceTree = "<group>"; };
+		BB08BCCF1D57E1FF00166AF5 /* CarCargoWood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCargoWood.swift; sourceTree = "<group>"; };
+		BB08BCD21D57E22800166AF5 /* cargo_car_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_wood.png; path = gfx/cargo_car_wood.png; sourceTree = "<group>"; };
+		BB08BCD31D57E22800166AF5 /* cargo_car_pipes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_pipes.png; path = gfx/cargo_car_pipes.png; sourceTree = "<group>"; };
+		BB08BCD61D58964900166AF5 /* passenger_car_express_loco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_express_loco.png; path = gfx/passenger_car_express_loco.png; sourceTree = "<group>"; };
+		BB08BCD71D58964900166AF5 /* passenger_car_express_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_express_right.png; path = gfx/passenger_car_express_right.png; sourceTree = "<group>"; };
+		BB08BCD81D58964900166AF5 /* passenger_car_express_mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_express_mid.png; path = gfx/passenger_car_express_mid.png; sourceTree = "<group>"; };
+		BB08BCD91D58964900166AF5 /* loco_express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loco_express.png; path = gfx/loco_express.png; sourceTree = "<group>"; };
+		BB08BCDA1D58964900166AF5 /* passenger_car_express_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_express_left.png; path = gfx/passenger_car_express_left.png; sourceTree = "<group>"; };
+		BB08BCE01D589E7400166AF5 /* CarPassengerExpressMid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerExpressMid.swift; sourceTree = "<group>"; };
+		BB08BCE21D58A21000166AF5 /* CarPassengerExpressLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerExpressLeft.swift; sourceTree = "<group>"; };
+		BB08BCE31D58A21000166AF5 /* CarPassengerExpressRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerExpressRight.swift; sourceTree = "<group>"; };
+		BB08BCE61D58AB7D00166AF5 /* PantografRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PantografRight.swift; sourceTree = "<group>"; };
+		BB08BCE81D58E78300166AF5 /* pantograf_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pantograf_right.png; path = gfx/pantograf_right.png; sourceTree = "<group>"; };
+		BB08BCEA1D58E9C700166AF5 /* PantografLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PantografLeft.swift; sourceTree = "<group>"; };
+		BB08BCEC1D58EA4C00166AF5 /* pantograf_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pantograf_left.png; path = gfx/pantograf_left.png; sourceTree = "<group>"; };
+		BB08BCEE1D59137500166AF5 /* Loco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loco.swift; sourceTree = "<group>"; };
+		BB08BCF01D591A2C00166AF5 /* passenger_car_historic_post_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_historic_post_r.png; path = gfx/passenger_car_historic_post_r.png; sourceTree = "<group>"; };
+		BB08BCF11D591A2C00166AF5 /* passenger_car_historic_post_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_historic_post_m.png; path = gfx/passenger_car_historic_post_m.png; sourceTree = "<group>"; };
+		BB08BCF21D591A2C00166AF5 /* passenger_car_historic_post_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_historic_post_l.png; path = gfx/passenger_car_historic_post_l.png; sourceTree = "<group>"; };
+		BB08BCF31D591A2C00166AF5 /* passenger_car_historic_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_historic_r.png; path = gfx/passenger_car_historic_r.png; sourceTree = "<group>"; };
+		BB08BCF41D591A2C00166AF5 /* passenger_car_historic_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_historic_m.png; path = gfx/passenger_car_historic_m.png; sourceTree = "<group>"; };
+		BB08BCF51D591A2C00166AF5 /* passenger_car_historic_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passenger_car_historic_l.png; path = gfx/passenger_car_historic_l.png; sourceTree = "<group>"; };
+		BB08BCFC1D591DCB00166AF5 /* CarPassengerExpressLoco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerExpressLoco.swift; sourceTree = "<group>"; };
+		BB08BCFE1D5923A300166AF5 /* CarPassengerHistoricL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricL.swift; sourceTree = "<group>"; };
+		BB08BCFF1D5923A300166AF5 /* CarPassengerHistoricM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricM.swift; sourceTree = "<group>"; };
+		BB08BD001D5923A300166AF5 /* CarPassengerHistoricR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricR.swift; sourceTree = "<group>"; };
+		BB08BD041D5A6DCC00166AF5 /* LocoDieselModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoDieselModel.swift; sourceTree = "<group>"; };
+		BB08BD061D5A6DFC00166AF5 /* loco_model_diesel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loco_model_diesel.png; path = gfx/loco_model_diesel.png; sourceTree = "<group>"; };
+		BB08BD071D5A6DFC00166AF5 /* loco_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loco_blue.png; path = gfx/loco_blue.png; sourceTree = "<group>"; };
+		BB17CEC620421F8600B8DADE /* man_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_v.png; path = gfx/man_v.png; sourceTree = "<group>"; };
+		BB24760B1D3EC34E005568E9 /* ITA Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITA Express.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB24760E1D3EC34E005568E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB2476171D3EC34E005568E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2476191D3EC34E005568E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB24761C1D3EC34E005568E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB24761E1D3EC34E005568E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2476231D3EC34E005568E9 /* steTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = steTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2476271D3EC34E005568E9 /* steTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = steTests.swift; sourceTree = "<group>"; };
+		BB2476291D3EC34E005568E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB24762E1D3EC34E005568E9 /* steUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = steUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2476321D3EC34E005568E9 /* steUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = steUITests.swift; sourceTree = "<group>"; };
+		BB2476341D3EC34E005568E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3EBBF11E7355B700E8ED7D /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchscreen.png; path = gfx/launchscreen.png; sourceTree = "<group>"; };
+		BB546A8B1F9547A700E64ED7 /* rail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rail.png; path = gfx/rail.png; sourceTree = "<group>"; };
+		BB546A8D1F954ACE00E64ED7 /* Rail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rail.swift; sourceTree = "<group>"; };
+		BB546A8F1F954F0F00E64ED7 /* RailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailView.swift; sourceTree = "<group>"; };
+		BB58307D1D71C844004E1DFB /* CarPassengerHistoricPostL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricPostL.swift; sourceTree = "<group>"; };
+		BB58307E1D71C844004E1DFB /* CarPassengerHistoricPostM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricPostM.swift; sourceTree = "<group>"; };
+		BB58307F1D71C844004E1DFB /* CarPassengerHistoricPostR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricPostR.swift; sourceTree = "<group>"; };
+		BB5830801D71C844004E1DFB /* CarPassengerHistoricTender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerHistoricTender.swift; sourceTree = "<group>"; };
+		BB5830811D71C844004E1DFB /* LocoSteam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoSteam.swift; sourceTree = "<group>"; };
+		BB5830871D71E947004E1DFB /* LocoExpress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoExpress.swift; sourceTree = "<group>"; };
+		BB5830891D720108004E1DFB /* Man.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Man.swift; sourceTree = "<group>"; };
+		BB58308B1D7201C9004E1DFB /* ManView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManView.swift; sourceTree = "<group>"; };
+		BB5F32812066489500603A40 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		BB5F32832066590600603A40 /* DropableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropableView.swift; sourceTree = "<group>"; };
+		BB5F328520665A6700603A40 /* ParentalGateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalGateViewController.swift; sourceTree = "<group>"; };
+		BB5F3287206676F800603A40 /* icondrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icondrag.png; path = gfx/icondrag.png; sourceTree = "<group>"; };
+		BB5F3288206676F900603A40 /* icondrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icondrop.png; path = gfx/icondrop.png; sourceTree = "<group>"; };
+		BB5F328B2066D21D00603A40 /* icondrophl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icondrophl.png; path = gfx/icondrophl.png; sourceTree = "<group>"; };
+		BB5F328D2066EB6100603A40 /* DraggableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableDelegate.swift; sourceTree = "<group>"; };
+		BB694CC31D5DC0FB006A25F6 /* LocoElectricRed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoElectricRed.swift; sourceTree = "<group>"; };
+		BB694CC51D63A23E006A25F6 /* LocoElectricBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoElectricBlue.swift; sourceTree = "<group>"; };
+		BB694CC71D63B0BD006A25F6 /* loco_historic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loco_historic.png; path = gfx/loco_historic.png; sourceTree = "<group>"; };
+		BB694CC81D63B0BD006A25F6 /* cargo_car_historic_tender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_historic_tender.png; path = gfx/cargo_car_historic_tender.png; sourceTree = "<group>"; };
+		BB694CC91D63B0BD006A25F6 /* loco_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loco_yellow.png; path = gfx/loco_yellow.png; sourceTree = "<group>"; };
+		BB694CCD1D63B163006A25F6 /* LocoDieselYellow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoDieselYellow.swift; sourceTree = "<group>"; };
+		BB694CCF1D63B42F006A25F6 /* cargo_car_container_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_container_gray.png; path = gfx/cargo_car_container_gray.png; sourceTree = "<group>"; };
+		BB694CD01D63B42F006A25F6 /* cargo_car_chasis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_chasis.png; path = gfx/cargo_car_chasis.png; sourceTree = "<group>"; };
+		BB694CD11D63B42F006A25F6 /* cargo_car_container_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cargo_car_container_red.png; path = gfx/cargo_car_container_red.png; sourceTree = "<group>"; };
+		BB694CD51D63B6E8006A25F6 /* CarCargoContainerRed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCargoContainerRed.swift; sourceTree = "<group>"; };
+		BB694CD71D63B83A006A25F6 /* CarCargoContainerGray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCargoContainerGray.swift; sourceTree = "<group>"; };
+		BB694CD81D63B83A006A25F6 /* CarCargoChasis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCargoChasis.swift; sourceTree = "<group>"; };
+		BB7E8D831F7599800077C7AA /* Demon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demon.swift; sourceTree = "<group>"; };
+		BB7E8D851F77A47E0077C7AA /* DemonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemonView.swift; sourceTree = "<group>"; };
+		BB7E8D871F77AD160077C7AA /* demon_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demon_0.png; path = gfx/demon_0.png; sourceTree = "<group>"; };
+		BB7E8D881F77AD160077C7AA /* demon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demon_1.png; path = gfx/demon_1.png; sourceTree = "<group>"; };
+		BB7E8D891F77AD160077C7AA /* demon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demon_2.png; path = gfx/demon_2.png; sourceTree = "<group>"; };
+		BB7E8D8A1F77AD160077C7AA /* demon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demon_3.png; path = gfx/demon_3.png; sourceTree = "<group>"; };
+		BB7E8D8B1F77AD160077C7AA /* demon_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demon_d.png; path = gfx/demon_d.png; sourceTree = "<group>"; };
+		BB81D3B31D8881E0003725C3 /* Lintel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lintel.swift; sourceTree = "<group>"; };
+		BB81D3B51D888FB5003725C3 /* LintelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LintelView.swift; sourceTree = "<group>"; };
+		BB81D3B71D889257003725C3 /* lintel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lintel.png; path = gfx/lintel.png; sourceTree = "<group>"; };
+		BB81D3B81D889257003725C3 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warning.png; path = gfx/warning.png; sourceTree = "<group>"; };
+		BB888B9C1D4012D8008AFC7B /* ExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressViewController.swift; sourceTree = "<group>"; };
+		BB888B9E1D4017EC008AFC7B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB9796CE212F0A3A00854F20 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = gfx/help.png; sourceTree = "<group>"; };
+		BB9796D5212F0AB300854F20 /* helpicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helpicon.png; path = gfx/helpicon.png; sourceTree = "<group>"; };
+		BB9796D7212F0BF900854F20 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		BB9A25EE1E4BB403001910A7 /* LivesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivesView.swift; sourceTree = "<group>"; };
+		BB9A25F01E4BBFE5001910A7 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		BB9A25F21E4BBFFC001910A7 /* BulletView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletView.swift; sourceTree = "<group>"; };
+		BBA066EF20986F4F0094F259 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Analytics/nanopb.framework; sourceTree = "<group>"; };
+		BBB33BE71D49461200A656D0 /* TextureItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureItem.swift; sourceTree = "<group>"; };
+		BBB33C271D4D485400A656D0 /* TextureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureManager.swift; sourceTree = "<group>"; };
+		BBB33C291D4D60A600A656D0 /* GraphicObjectBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicObjectBase.swift; sourceTree = "<group>"; };
+		BBB33C2B1D4E88DC00A656D0 /* ModelObjectBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelObjectBase.swift; sourceTree = "<group>"; };
+		BBB33C301D4E937900A656D0 /* CarPassengerGreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPassengerGreen.swift; sourceTree = "<group>"; };
+		BBB33C331D4EA08000A656D0 /* CarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		BBB33C351D4EA44E00A656D0 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		BBBA22AA2069A1E7008D96A2 /* DraggableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DraggableView.xib; sourceTree = "<group>"; };
+		BBC248611F82DDFA006E1F18 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = gfx/bullet.png; sourceTree = "<group>"; };
+		BBC439C82049C84D00CA39FF /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		BBC439CC204B1BB500CA39FF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BBC439CE204DF42D00CA39FF /* IAPProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProducts.swift; sourceTree = "<group>"; };
+		BBE413271E3655EC0042B840 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		BBE413291E365EC50042B840 /* iconbuy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconbuy.png; path = gfx/iconbuy.png; sourceTree = "<group>"; };
+		BBE4132A1E365EC50042B840 /* iconhof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconhof.png; path = gfx/iconhof.png; sourceTree = "<group>"; };
+		BBE4132B1E365EC50042B840 /* iconplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconplay.png; path = gfx/iconplay.png; sourceTree = "<group>"; };
+		BBE4132F1E366D890042B840 /* HOF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOF.swift; sourceTree = "<group>"; };
+		BBE413311E366EAF0042B840 /* HOFLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOFLine.swift; sourceTree = "<group>"; };
+		BBE413331E367E330042B840 /* HOFTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOFTableViewCell.swift; sourceTree = "<group>"; };
+		BBE413351E368F9C0042B840 /* HOFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOFViewController.swift; sourceTree = "<group>"; };
+		BBE413371E369DD40042B840 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BBEA48751E3D5D6C001C3BE3 /* extratime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = extratime.png; path = gfx/extratime.png; sourceTree = "<group>"; };
+		BBEA48771E3FC8BD001C3BE3 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		BBEA48791E428DEF001C3BE3 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		BBF6B1A81D83F00100671A01 /* man_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_0.png; path = gfx/man_0.png; sourceTree = "<group>"; };
+		BBF6B1A91D83F00100671A01 /* man_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_1.png; path = gfx/man_1.png; sourceTree = "<group>"; };
+		BBF6B1AA1D83F00100671A01 /* man_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_2.png; path = gfx/man_2.png; sourceTree = "<group>"; };
+		BBF6B1AB1D83F00100671A01 /* man_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_3.png; path = gfx/man_3.png; sourceTree = "<group>"; };
+		BBF6B1AC1D83F00100671A01 /* man_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_f.png; path = gfx/man_f.png; sourceTree = "<group>"; };
+		BBF6B1AD1D83F00100671A01 /* man_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_l.png; path = gfx/man_l.png; sourceTree = "<group>"; };
+		BBF6B1B41D8483C100671A01 /* LocoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoView.swift; sourceTree = "<group>"; };
+		BBF6B1B61D85BD2100671A01 /* char_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_0.png; path = gfx/char_0.png; sourceTree = "<group>"; };
+		BBF6B1B71D85BD2100671A01 /* char_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_1.png; path = gfx/char_1.png; sourceTree = "<group>"; };
+		BBF6B1B81D85BD2100671A01 /* char_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_2.png; path = gfx/char_2.png; sourceTree = "<group>"; };
+		BBF6B1B91D85BD2100671A01 /* char_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_3.png; path = gfx/char_3.png; sourceTree = "<group>"; };
+		BBF6B1BA1D85BD2100671A01 /* char_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_4.png; path = gfx/char_4.png; sourceTree = "<group>"; };
+		BBF6B1BB1D85BD2100671A01 /* char_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_5.png; path = gfx/char_5.png; sourceTree = "<group>"; };
+		BBF6B1BC1D85BD2100671A01 /* char_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_6.png; path = gfx/char_6.png; sourceTree = "<group>"; };
+		BBF6B1BD1D85BD2100671A01 /* char_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_7.png; path = gfx/char_7.png; sourceTree = "<group>"; };
+		BBF6B1BE1D85BD2100671A01 /* char_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_8.png; path = gfx/char_8.png; sourceTree = "<group>"; };
+		BBF6B1BF1D85BD2100671A01 /* char_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = char_9.png; path = gfx/char_9.png; sourceTree = "<group>"; };
+		BBF6B1CA1D85BD4600671A01 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		BBF6B1CC1D85BD5700671A01 /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		BBF6B1CE1D85E16600671A01 /* Pillar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pillar.swift; sourceTree = "<group>"; };
+		BBF6B1D01D85E2BE00671A01 /* pillar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pillar.png; path = gfx/pillar.png; sourceTree = "<group>"; };
+		BBF6B1D21D85E52B00671A01 /* Rope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
+		BBF6B1D41D85E7C100671A01 /* RopeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RopeView.swift; sourceTree = "<group>"; };
+		BBFEEABD1FC0524000B595F3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BBFEEABE1FC0525C00B595F3 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2476081D3EC34E005568E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC439CD204B1BB500CA39FF /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2476201D3EC34E005568E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB24762B1D3EC34E005568E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2476021D3EC34E005568E9 = {
+			isa = PBXGroup;
+			children = (
+				BB24760D1D3EC34E005568E9 /* ste */,
+				BB2476261D3EC34E005568E9 /* steTests */,
+				BB2476311D3EC34E005568E9 /* steUITests */,
+				BB24760C1D3EC34E005568E9 /* Products */,
+				BB3EBBEA1E73527D00E8ED7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB24760C1D3EC34E005568E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB24760B1D3EC34E005568E9 /* ITA Express.app */,
+				BB2476231D3EC34E005568E9 /* steTests.xctest */,
+				BB24762E1D3EC34E005568E9 /* steUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB24760D1D3EC34E005568E9 /* ste */ = {
+			isa = PBXGroup;
+			children = (
+				BBB33C371D4FF72E00A656D0 /* gfx */,
+				BBB33C321D4EA04800A656D0 /* View */,
+				BBB33C2F1D4E935800A656D0 /* Model */,
+				BB888B9C1D4012D8008AFC7B /* ExpressViewController.swift */,
+				BB24760E1D3EC34E005568E9 /* AppDelegate.swift */,
+				BB2476161D3EC34E005568E9 /* Main.storyboard */,
+				BB2476191D3EC34E005568E9 /* Assets.xcassets */,
+				BB24761B1D3EC34E005568E9 /* LaunchScreen.storyboard */,
+				BB24761E1D3EC34E005568E9 /* Info.plist */,
+				BB888B9E1D4017EC008AFC7B /* Constants.swift */,
+				BBB33C351D4EA44E00A656D0 /* Scene.swift */,
+				BBE413271E3655EC0042B840 /* StartViewController.swift */,
+				BBE413351E368F9C0042B840 /* HOFViewController.swift */,
+				BBE413371E369DD40042B840 /* AddViewController.swift */,
+				BBEA48771E3FC8BD001C3BE3 /* BuyViewController.swift */,
+				BB5F328520665A6700603A40 /* ParentalGateViewController.swift */,
+				BB9796D7212F0BF900854F20 /* HelpViewController.swift */,
+			);
+			path = ste;
+			sourceTree = "<group>";
+		};
+		BB2476261D3EC34E005568E9 /* steTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2476271D3EC34E005568E9 /* steTests.swift */,
+				BB2476291D3EC34E005568E9 /* Info.plist */,
+			);
+			path = steTests;
+			sourceTree = "<group>";
+		};
+		BB2476311D3EC34E005568E9 /* steUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2476321D3EC34E005568E9 /* steUITests.swift */,
+				BB2476341D3EC34E005568E9 /* Info.plist */,
+			);
+			path = steUITests;
+			sourceTree = "<group>";
+		};
+		BB3EBBEA1E73527D00E8ED7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBA066EF20986F4F0094F259 /* nanopb.framework */,
+				BBC439CC204B1BB500CA39FF /* StoreKit.framework */,
+				BBFEEABE1FC0525C00B595F3 /* OpenAL.framework */,
+				BBFEEABD1FC0524000B595F3 /* AudioToolbox.framework */,
+				2934D2EC75C3610D4916ED99 /* Pods_steTests.framework */,
+				0E950C2B36CCF6625DA84421 /* Pods_steUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBB33C2F1D4E935800A656D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBC439C82049C84D00CA39FF /* IAPHelper.swift */,
+				BBC439CE204DF42D00CA39FF /* IAPProducts.swift */,
+				BBB33BE71D49461200A656D0 /* TextureItem.swift */,
+				BBB33C271D4D485400A656D0 /* TextureManager.swift */,
+				BB08BCFE1D5923A300166AF5 /* CarPassengerHistoricL.swift */,
+				BB08BCFF1D5923A300166AF5 /* CarPassengerHistoricM.swift */,
+				BB08BD001D5923A300166AF5 /* CarPassengerHistoricR.swift */,
+				BB58307D1D71C844004E1DFB /* CarPassengerHistoricPostL.swift */,
+				BB58307E1D71C844004E1DFB /* CarPassengerHistoricPostM.swift */,
+				BB58307F1D71C844004E1DFB /* CarPassengerHistoricPostR.swift */,
+				BB5830801D71C844004E1DFB /* CarPassengerHistoricTender.swift */,
+				BB08BCEA1D58E9C700166AF5 /* PantografLeft.swift */,
+				BB08BCE61D58AB7D00166AF5 /* PantografRight.swift */,
+				BB08BCCC1D57DB2A00166AF5 /* CarCargoContainer.swift */,
+				BB08BCCE1D57E1FF00166AF5 /* CarCargoPipes.swift */,
+				BB08BCCF1D57E1FF00166AF5 /* CarCargoWood.swift */,
+				BB694CD51D63B6E8006A25F6 /* CarCargoContainerRed.swift */,
+				BB694CD71D63B83A006A25F6 /* CarCargoContainerGray.swift */,
+				BB694CD81D63B83A006A25F6 /* CarCargoChasis.swift */,
+				BB08BCE21D58A21000166AF5 /* CarPassengerExpressLeft.swift */,
+				BB08BCE31D58A21000166AF5 /* CarPassengerExpressRight.swift */,
+				BB08BCE01D589E7400166AF5 /* CarPassengerExpressMid.swift */,
+				BB08BCFC1D591DCB00166AF5 /* CarPassengerExpressLoco.swift */,
+				BB08BCC01D576C0600166AF5 /* CarPassengerModel1.swift */,
+				BB08BCC21D57D8FB00166AF5 /* CarPassengerModel2.swift */,
+				BB08BCC31D57D8FB00166AF5 /* CarPassengerModelPost.swift */,
+				BBB33C301D4E937900A656D0 /* CarPassengerGreen.swift */,
+				BB08BCB51D574D0D00166AF5 /* CarPassengerCyan.swift */,
+				BB08BCB61D574D0D00166AF5 /* CarPassengerRed.swift */,
+				BB08BCB71D574D0D00166AF5 /* CarPassengerSilverblue.swift */,
+				BB08BCB81D574D0D00166AF5 /* CarPassengerYellow.swift */,
+				BB08BD041D5A6DCC00166AF5 /* LocoDieselModel.swift */,
+				BB694CC31D5DC0FB006A25F6 /* LocoElectricRed.swift */,
+				BB694CC51D63A23E006A25F6 /* LocoElectricBlue.swift */,
+				BB5830871D71E947004E1DFB /* LocoExpress.swift */,
+				BB694CCD1D63B163006A25F6 /* LocoDieselYellow.swift */,
+				BB5830811D71C844004E1DFB /* LocoSteam.swift */,
+				BBB33C2B1D4E88DC00A656D0 /* ModelObjectBase.swift */,
+				BB08BCB41D574D0D00166AF5 /* Car.swift */,
+				BB08BCEE1D59137500166AF5 /* Loco.swift */,
+				BB5830891D720108004E1DFB /* Man.swift */,
+				BBF6B1CA1D85BD4600671A01 /* Time.swift */,
+				BBF6B1CE1D85E16600671A01 /* Pillar.swift */,
+				BBF6B1D21D85E52B00671A01 /* Rope.swift */,
+				BB81D3B31D8881E0003725C3 /* Lintel.swift */,
+				BBE4132F1E366D890042B840 /* HOF.swift */,
+				BBE413311E366EAF0042B840 /* HOFLine.swift */,
+				BBEA48791E428DEF001C3BE3 /* KeychainService.swift */,
+				BB9A25F01E4BBFE5001910A7 /* Bullet.swift */,
+				BB7E8D831F7599800077C7AA /* Demon.swift */,
+				BB546A8D1F954ACE00E64ED7 /* Rail.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BBB33C321D4EA04800A656D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6B1B41D8483C100671A01 /* LocoView.swift */,
+				BBB33C291D4D60A600A656D0 /* GraphicObjectBase.swift */,
+				BBB33C331D4EA08000A656D0 /* CarView.swift */,
+				BB58308B1D7201C9004E1DFB /* ManView.swift */,
+				BBF6B1CC1D85BD5700671A01 /* TimeView.swift */,
+				BBF6B1D41D85E7C100671A01 /* RopeView.swift */,
+				BB81D3B51D888FB5003725C3 /* LintelView.swift */,
+				BBE413331E367E330042B840 /* HOFTableViewCell.swift */,
+				BB9A25EE1E4BB403001910A7 /* LivesView.swift */,
+				BB9A25F21E4BBFFC001910A7 /* BulletView.swift */,
+				BB7E8D851F77A47E0077C7AA /* DemonView.swift */,
+				BB546A8F1F954F0F00E64ED7 /* RailView.swift */,
+				BB5F32812066489500603A40 /* DraggableView.swift */,
+				BB5F32832066590600603A40 /* DropableView.swift */,
+				BB5F328D2066EB6100603A40 /* DraggableDelegate.swift */,
+				BBBA22AA2069A1E7008D96A2 /* DraggableView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BBB33C371D4FF72E00A656D0 /* gfx */ = {
+			isa = PBXGroup;
+			children = (
+				BB9796D5212F0AB300854F20 /* helpicon.png */,
+				BB9796CE212F0A3A00854F20 /* help.png */,
+				BB5F328B2066D21D00603A40 /* icondrophl.png */,
+				BB5F3287206676F800603A40 /* icondrag.png */,
+				BB5F3288206676F900603A40 /* icondrop.png */,
+				BB546A8B1F9547A700E64ED7 /* rail.png */,
+				BBC248611F82DDFA006E1F18 /* bullet.png */,
+				BB7E8D871F77AD160077C7AA /* demon_0.png */,
+				BB7E8D881F77AD160077C7AA /* demon_1.png */,
+				BB7E8D891F77AD160077C7AA /* demon_2.png */,
+				BB7E8D8A1F77AD160077C7AA /* demon_3.png */,
+				BB7E8D8B1F77AD160077C7AA /* demon_d.png */,
+				BB3EBBF11E7355B700E8ED7D /* launchscreen.png */,
+				BBEA48751E3D5D6C001C3BE3 /* extratime.png */,
+				BBE413291E365EC50042B840 /* iconbuy.png */,
+				BBE4132A1E365EC50042B840 /* iconhof.png */,
+				BBE4132B1E365EC50042B840 /* iconplay.png */,
+				BB81D3B71D889257003725C3 /* lintel.png */,
+				BB81D3B81D889257003725C3 /* warning.png */,
+				BBF6B1D01D85E2BE00671A01 /* pillar.png */,
+				BBF6B1B61D85BD2100671A01 /* char_0.png */,
+				BBF6B1B71D85BD2100671A01 /* char_1.png */,
+				BBF6B1B81D85BD2100671A01 /* char_2.png */,
+				BBF6B1B91D85BD2100671A01 /* char_3.png */,
+				BBF6B1BA1D85BD2100671A01 /* char_4.png */,
+				BBF6B1BB1D85BD2100671A01 /* char_5.png */,
+				BBF6B1BC1D85BD2100671A01 /* char_6.png */,
+				BBF6B1BD1D85BD2100671A01 /* char_7.png */,
+				BBF6B1BE1D85BD2100671A01 /* char_8.png */,
+				BBF6B1BF1D85BD2100671A01 /* char_9.png */,
+				BBF6B1A81D83F00100671A01 /* man_0.png */,
+				BBF6B1A91D83F00100671A01 /* man_1.png */,
+				BBF6B1AA1D83F00100671A01 /* man_2.png */,
+				BBF6B1AB1D83F00100671A01 /* man_3.png */,
+				BBF6B1AC1D83F00100671A01 /* man_f.png */,
+				BBF6B1AD1D83F00100671A01 /* man_l.png */,
+				BB17CEC620421F8600B8DADE /* man_v.png */,
+				BB08BCEC1D58EA4C00166AF5 /* pantograf_left.png */,
+				BB08BCE81D58E78300166AF5 /* pantograf_right.png */,
+				BB08BCF01D591A2C00166AF5 /* passenger_car_historic_post_r.png */,
+				BB08BCF11D591A2C00166AF5 /* passenger_car_historic_post_m.png */,
+				BB08BCF21D591A2C00166AF5 /* passenger_car_historic_post_l.png */,
+				BB08BCF31D591A2C00166AF5 /* passenger_car_historic_r.png */,
+				BB08BCF41D591A2C00166AF5 /* passenger_car_historic_m.png */,
+				BB08BCF51D591A2C00166AF5 /* passenger_car_historic_l.png */,
+				BB08BCD61D58964900166AF5 /* passenger_car_express_loco.png */,
+				BB08BCD71D58964900166AF5 /* passenger_car_express_right.png */,
+				BB08BCD81D58964900166AF5 /* passenger_car_express_mid.png */,
+				BB08BCDA1D58964900166AF5 /* passenger_car_express_left.png */,
+				BB08BCD21D57E22800166AF5 /* cargo_car_wood.png */,
+				BB08BCD31D57E22800166AF5 /* cargo_car_pipes.png */,
+				BB08BCCA1D57DB1D00166AF5 /* cargo_car_container.png */,
+				BB694CCF1D63B42F006A25F6 /* cargo_car_container_gray.png */,
+				BB694CD11D63B42F006A25F6 /* cargo_car_container_red.png */,
+				BB694CD01D63B42F006A25F6 /* cargo_car_chasis.png */,
+				BB08BCBE1D576BE800166AF5 /* passenger_car_1.png */,
+				BB08BCC71D57D97900166AF5 /* passenger_car_2.png */,
+				BB08BCC61D57D97900166AF5 /* passenger_car_post.png */,
+				BB08BCAB1D5729FC00166AF5 /* passenger_car_green.png */,
+				BB08BCAC1D5729FC00166AF5 /* passenger_car_cyan.png */,
+				BB08BCAD1D5729FC00166AF5 /* passenger_car_yellow.png */,
+				BB08BCAE1D5729FC00166AF5 /* passenger_car_red.png */,
+				BB08BCAA1D5729FC00166AF5 /* loco_red.png */,
+				BB08BCD91D58964900166AF5 /* loco_express.png */,
+				BB08BD061D5A6DFC00166AF5 /* loco_model_diesel.png */,
+				BB08BD071D5A6DFC00166AF5 /* loco_blue.png */,
+				BB694CC91D63B0BD006A25F6 /* loco_yellow.png */,
+				BB694CC71D63B0BD006A25F6 /* loco_historic.png */,
+				BB694CC81D63B0BD006A25F6 /* cargo_car_historic_tender.png */,
+			);
+			name = gfx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB24760A1D3EC34E005568E9 /* ste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2476371D3EC34E005568E9 /* Build configuration list for PBXNativeTarget "ste" */;
+			buildPhases = (
+				E9F6369495632D2F86CF778C /* [CP] Check Pods Manifest.lock */,
+				BB2476071D3EC34E005568E9 /* Sources */,
+				BB2476081D3EC34E005568E9 /* Frameworks */,
+				BB2476091D3EC34E005568E9 /* Resources */,
+				752E53D10F330141F7F9FA3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ste;
+			productName = ste;
+			productReference = BB24760B1D3EC34E005568E9 /* ITA Express.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2476221D3EC34E005568E9 /* steTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB24763A1D3EC34E005568E9 /* Build configuration list for PBXNativeTarget "steTests" */;
+			buildPhases = (
+				BB24761F1D3EC34E005568E9 /* Sources */,
+				BB2476201D3EC34E005568E9 /* Frameworks */,
+				BB2476211D3EC34E005568E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2476251D3EC34E005568E9 /* PBXTargetDependency */,
+			);
+			name = steTests;
+			productName = steTests;
+			productReference = BB2476231D3EC34E005568E9 /* steTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB24762D1D3EC34E005568E9 /* steUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB24763D1D3EC34E005568E9 /* Build configuration list for PBXNativeTarget "steUITests" */;
+			buildPhases = (
+				BB24762A1D3EC34E005568E9 /* Sources */,
+				BB24762B1D3EC34E005568E9 /* Frameworks */,
+				BB24762C1D3EC34E005568E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2476301D3EC34E005568E9 /* PBXTargetDependency */,
+			);
+			name = steUITests;
+			productName = steUITests;
+			productReference = BB24762E1D3EC34E005568E9 /* steUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2476031D3EC34E005568E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Zdeněk Skulínek";
+				TargetAttributes = {
+					BB24760A1D3EC34E005568E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R9GNBHEXWY;
+						DevelopmentTeamName = "Alena Kleiblova";
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					BB2476221D3EC34E005568E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T84ED5V7G3;
+						DevelopmentTeamName = "Alena Kleiblova";
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB24760A1D3EC34E005568E9;
+					};
+					BB24762D1D3EC34E005568E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T84ED5V7G3;
+						DevelopmentTeamName = "Alena Kleiblova";
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB24760A1D3EC34E005568E9;
+					};
+				};
+			};
+			buildConfigurationList = BB2476061D3EC34E005568E9 /* Build configuration list for PBXProject "ste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2476021D3EC34E005568E9;
+			productRefGroup = BB24760C1D3EC34E005568E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB24760A1D3EC34E005568E9 /* ste */,
+				BB2476221D3EC34E005568E9 /* steTests */,
+				BB24762D1D3EC34E005568E9 /* steUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2476091D3EC34E005568E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4132E1E365EC50042B840 /* iconplay.png in Resources */,
+				BB546A8C1F9547A700E64ED7 /* rail.png in Resources */,
+				BB08BCCB1D57DB1D00166AF5 /* cargo_car_container.png in Resources */,
+				BB5F328C2066D21D00603A40 /* icondrophl.png in Resources */,
+				BB08BCDD1D58964900166AF5 /* passenger_car_express_mid.png in Resources */,
+				BB7E8D8D1F77AD160077C7AA /* demon_1.png in Resources */,
+				BBF6B1B11D83F00100671A01 /* man_3.png in Resources */,
+				BB08BCE91D58E78300166AF5 /* pantograf_right.png in Resources */,
+				BB17CEC720421F8600B8DADE /* man_v.png in Resources */,
+				BB08BCC91D57D97900166AF5 /* passenger_car_2.png in Resources */,
+				BBF6B1C41D85BD2100671A01 /* char_4.png in Resources */,
+				BB7E8D901F77AD160077C7AA /* demon_d.png in Resources */,
+				BB08BCD41D57E22800166AF5 /* cargo_car_wood.png in Resources */,
+				BB694CCA1D63B0BD006A25F6 /* loco_historic.png in Resources */,
+				BBEA48761E3D5D6C001C3BE3 /* extratime.png in Resources */,
+				BBF6B1B01D83F00100671A01 /* man_2.png in Resources */,
+				BB7E8D8C1F77AD160077C7AA /* demon_0.png in Resources */,
+				BB08BCDB1D58964900166AF5 /* passenger_car_express_loco.png in Resources */,
+				BB08BCB11D5729FC00166AF5 /* passenger_car_cyan.png in Resources */,
+				BB81D3B91D889257003725C3 /* lintel.png in Resources */,
+				BB08BCBF1D576BE800166AF5 /* passenger_car_1.png in Resources */,
+				BB08BD091D5A6DFC00166AF5 /* loco_blue.png in Resources */,
+				BB08BCDE1D58964900166AF5 /* loco_express.png in Resources */,
+				BB9796D6212F0AB300854F20 /* helpicon.png in Resources */,
+				BB2476181D3EC34E005568E9 /* Main.storyboard in Resources */,
+				BBF6B1C71D85BD2100671A01 /* char_7.png in Resources */,
+				BB08BCF61D591A2C00166AF5 /* passenger_car_historic_post_r.png in Resources */,
+				BBF6B1B31D83F00100671A01 /* man_l.png in Resources */,
+				BB08BCFB1D591A2C00166AF5 /* passenger_car_historic_l.png in Resources */,
+				BBC248621F82DDFA006E1F18 /* bullet.png in Resources */,
+				BB08BCFA1D591A2C00166AF5 /* passenger_car_historic_m.png in Resources */,
+				BB5F3289206676FA00603A40 /* icondrag.png in Resources */,
+				BB694CD41D63B42F006A25F6 /* cargo_car_container_red.png in Resources */,
+				BB08BCDF1D58964900166AF5 /* passenger_car_express_left.png in Resources */,
+				BB08BCB31D5729FC00166AF5 /* passenger_car_red.png in Resources */,
+				BBF6B1C91D85BD2100671A01 /* char_9.png in Resources */,
+				BB7E8D8E1F77AD160077C7AA /* demon_2.png in Resources */,
+				BB5F328A206676FA00603A40 /* icondrop.png in Resources */,
+				BB08BD081D5A6DFC00166AF5 /* loco_model_diesel.png in Resources */,
+				BB08BCB01D5729FC00166AF5 /* passenger_car_green.png in Resources */,
+				BBF6B1C61D85BD2100671A01 /* char_6.png in Resources */,
+				BBF6B1AF1D83F00100671A01 /* man_1.png in Resources */,
+				BB9796D4212F0A3B00854F20 /* help.png in Resources */,
+				BB08BCC81D57D97900166AF5 /* passenger_car_post.png in Resources */,
+				BB7E8D8F1F77AD160077C7AA /* demon_3.png in Resources */,
+				BB08BCB21D5729FC00166AF5 /* passenger_car_yellow.png in Resources */,
+				BBF6B1AE1D83F00100671A01 /* man_0.png in Resources */,
+				BB694CCC1D63B0BD006A25F6 /* loco_yellow.png in Resources */,
+				BB08BCD51D57E22800166AF5 /* cargo_car_pipes.png in Resources */,
+				BB694CCB1D63B0BD006A25F6 /* cargo_car_historic_tender.png in Resources */,
+				BB08BCF71D591A2C00166AF5 /* passenger_car_historic_post_m.png in Resources */,
+				BB24761A1D3EC34E005568E9 /* Assets.xcassets in Resources */,
+				BBBA22AB2069A1E7008D96A2 /* DraggableView.xib in Resources */,
+				BBF6B1C31D85BD2100671A01 /* char_3.png in Resources */,
+				BB694CD31D63B42F006A25F6 /* cargo_car_chasis.png in Resources */,
+				BB81D3BA1D889257003725C3 /* warning.png in Resources */,
+				BB08BCDC1D58964900166AF5 /* passenger_car_express_right.png in Resources */,
+				BBF6B1C21D85BD2100671A01 /* char_2.png in Resources */,
+				BB08BCF91D591A2C00166AF5 /* passenger_car_historic_r.png in Resources */,
+				BBF6B1D11D85E2BE00671A01 /* pillar.png in Resources */,
+				BBE4132D1E365EC50042B840 /* iconhof.png in Resources */,
+				BB08BCF81D591A2C00166AF5 /* passenger_car_historic_post_l.png in Resources */,
+				BB694CD21D63B42F006A25F6 /* cargo_car_container_gray.png in Resources */,
+				BB3EBBF21E7355B700E8ED7D /* launchscreen.png in Resources */,
+				BBE4132C1E365EC50042B840 /* iconbuy.png in Resources */,
+				BBF6B1C01D85BD2100671A01 /* char_0.png in Resources */,
+				BBF6B1C81D85BD2100671A01 /* char_8.png in Resources */,
+				BBF6B1C11D85BD2100671A01 /* char_1.png in Resources */,
+				BBF6B1B21D83F00100671A01 /* man_f.png in Resources */,
+				BB08BCED1D58EA4C00166AF5 /* pantograf_left.png in Resources */,
+				BB24761D1D3EC34E005568E9 /* LaunchScreen.storyboard in Resources */,
+				BB08BCAF1D5729FC00166AF5 /* loco_red.png in Resources */,
+				BBF6B1C51D85BD2100671A01 /* char_5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2476211D3EC34E005568E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB24762C1D3EC34E005568E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		752E53D10F330141F7F9FA3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		E9F6369495632D2F86CF778C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2476071D3EC34E005568E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB08BD021D5923A300166AF5 /* CarPassengerHistoricM.swift in Sources */,
+				BBB33BE81D49461200A656D0 /* TextureItem.swift in Sources */,
+				BB5830851D71C844004E1DFB /* CarPassengerHistoricTender.swift in Sources */,
+				BBB33C2C1D4E88DC00A656D0 /* ModelObjectBase.swift in Sources */,
+				BBC439CF204DF42D00CA39FF /* IAPProducts.swift in Sources */,
+				BB08BCBA1D574D0D00166AF5 /* CarPassengerCyan.swift in Sources */,
+				BBE413281E3655EC0042B840 /* StartViewController.swift in Sources */,
+				BBF6B1D31D85E52B00671A01 /* Rope.swift in Sources */,
+				BB81D3B41D8881E0003725C3 /* Lintel.swift in Sources */,
+				BB08BD051D5A6DCC00166AF5 /* LocoDieselModel.swift in Sources */,
+				BB546A901F954F0F00E64ED7 /* RailView.swift in Sources */,
+				BB5F32842066590600603A40 /* DropableView.swift in Sources */,
+				BB694CC61D63A23E006A25F6 /* LocoElectricBlue.swift in Sources */,
+				BB58308C1D7201C9004E1DFB /* ManView.swift in Sources */,
+				BBC439C92049C84E00CA39FF /* IAPHelper.swift in Sources */,
+				BBF6B1CD1D85BD5700671A01 /* TimeView.swift in Sources */,
+				BB08BCC11D576C0600166AF5 /* CarPassengerModel1.swift in Sources */,
+				BBB33C341D4EA08000A656D0 /* CarView.swift in Sources */,
+				BB5830831D71C844004E1DFB /* CarPassengerHistoricPostM.swift in Sources */,
+				BB9A25F11E4BBFE5001910A7 /* Bullet.swift in Sources */,
+				BB08BCFD1D591DCB00166AF5 /* CarPassengerExpressLoco.swift in Sources */,
+				BB546A8E1F954ACE00E64ED7 /* Rail.swift in Sources */,
+				BB08BCD01D57E1FF00166AF5 /* CarCargoPipes.swift in Sources */,
+				BB9A25F31E4BBFFC001910A7 /* BulletView.swift in Sources */,
+				BBB33C311D4E937900A656D0 /* CarPassengerGreen.swift in Sources */,
+				BB08BCE51D58A21000166AF5 /* CarPassengerExpressRight.swift in Sources */,
+				BBE413361E368F9C0042B840 /* HOFViewController.swift in Sources */,
+				BB08BCC41D57D8FB00166AF5 /* CarPassengerModel2.swift in Sources */,
+				BBEA48781E3FC8BD001C3BE3 /* BuyViewController.swift in Sources */,
+				BBF6B1CF1D85E16600671A01 /* Pillar.swift in Sources */,
+				BB24760F1D3EC34E005568E9 /* AppDelegate.swift in Sources */,
+				BBB33C2A1D4D60A600A656D0 /* GraphicObjectBase.swift in Sources */,
+				BBE413321E366EAF0042B840 /* HOFLine.swift in Sources */,
+				BBF6B1B51D8483C100671A01 /* LocoView.swift in Sources */,
+				BB08BCCD1D57DB2A00166AF5 /* CarCargoContainer.swift in Sources */,
+				BBE413301E366D890042B840 /* HOF.swift in Sources */,
+				BBEA487A1E428DEF001C3BE3 /* KeychainService.swift in Sources */,
+				BB5830841D71C844004E1DFB /* CarPassengerHistoricPostR.swift in Sources */,
+				BB5830881D71E947004E1DFB /* LocoExpress.swift in Sources */,
+				BBB33C281D4D485400A656D0 /* TextureManager.swift in Sources */,
+				BB08BCBC1D574D0D00166AF5 /* CarPassengerSilverblue.swift in Sources */,
+				BB08BCB91D574D0D00166AF5 /* Car.swift in Sources */,
+				BB5F328E2066EB6100603A40 /* DraggableDelegate.swift in Sources */,
+				BB08BD031D5923A300166AF5 /* CarPassengerHistoricR.swift in Sources */,
+				BB7E8D861F77A47E0077C7AA /* DemonView.swift in Sources */,
+				BB694CC41D5DC0FB006A25F6 /* LocoElectricRed.swift in Sources */,
+				BB58308A1D720108004E1DFB /* Man.swift in Sources */,
+				BB08BCEB1D58E9C700166AF5 /* PantografLeft.swift in Sources */,
+				BB888B9D1D4012D8008AFC7B /* ExpressViewController.swift in Sources */,
+				BB5830821D71C844004E1DFB /* CarPassengerHistoricPostL.swift in Sources */,
+				BBF6B1D51D85E7C100671A01 /* RopeView.swift in Sources */,
+				BB08BD011D5923A300166AF5 /* CarPassengerHistoricL.swift in Sources */,
+				BB08BCE11D589E7400166AF5 /* CarPassengerExpressMid.swift in Sources */,
+				BB888B9F1D4017EC008AFC7B /* Constants.swift in Sources */,
+				BB5830861D71C844004E1DFB /* LocoSteam.swift in Sources */,
+				BB81D3B61D888FB6003725C3 /* LintelView.swift in Sources */,
+				BB9796D8212F0BF900854F20 /* HelpViewController.swift in Sources */,
+				BB08BCBB1D574D0D00166AF5 /* CarPassengerRed.swift in Sources */,
+				BBF6B1CB1D85BD4600671A01 /* Time.swift in Sources */,
+				BB5F328620665A6700603A40 /* ParentalGateViewController.swift in Sources */,
+				BB08BCD11D57E1FF00166AF5 /* CarCargoWood.swift in Sources */,
+				BB694CDA1D63B83A006A25F6 /* CarCargoChasis.swift in Sources */,
+				BB694CD91D63B83A006A25F6 /* CarCargoContainerGray.swift in Sources */,
+				BBE413381E369DD40042B840 /* AddViewController.swift in Sources */,
+				BB694CCE1D63B163006A25F6 /* LocoDieselYellow.swift in Sources */,
+				BBB33C361D4EA44E00A656D0 /* Scene.swift in Sources */,
+				BBE413341E367E330042B840 /* HOFTableViewCell.swift in Sources */,
+				BB08BCEF1D59137500166AF5 /* Loco.swift in Sources */,
+				BB7E8D841F7599800077C7AA /* Demon.swift in Sources */,
+				BB08BCBD1D574D0D00166AF5 /* CarPassengerYellow.swift in Sources */,
+				BB5F32822066489500603A40 /* DraggableView.swift in Sources */,
+				BB08BCE41D58A21000166AF5 /* CarPassengerExpressLeft.swift in Sources */,
+				BB694CD61D63B6E8006A25F6 /* CarCargoContainerRed.swift in Sources */,
+				BB08BCE71D58AB7D00166AF5 /* PantografRight.swift in Sources */,
+				BB08BCC51D57D8FB00166AF5 /* CarPassengerModelPost.swift in Sources */,
+				BB9A25EF1E4BB403001910A7 /* LivesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB24761F1D3EC34E005568E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2476281D3EC34E005568E9 /* steTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB24762A1D3EC34E005568E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2476331D3EC34E005568E9 /* steUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2476251D3EC34E005568E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB24760A1D3EC34E005568E9 /* ste */;
+			targetProxy = BB2476241D3EC34E005568E9 /* PBXContainerItemProxy */;
+		};
+		BB2476301D3EC34E005568E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB24760A1D3EC34E005568E9 /* ste */;
+			targetProxy = BB24762F1D3EC34E005568E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB2476161D3EC34E005568E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2476171D3EC34E005568E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB24761B1D3EC34E005568E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB24761C1D3EC34E005568E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2476351D3EC34E005568E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					Analytics/,
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		BB2476361D3EC34E005568E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = $inherited;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		BB2476381D3EC34E005568E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = R9GNBHEXWY;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Analytics",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "GLES_SILENCE_DEPRECATION=1";
+				GLES_SILENCE_DEPRECATION = "";
+				INFOPLIST_FILE = ste/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotea.itaexpress;
+				PRODUCT_NAME = "ITA Express";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[arch=*]" = x86_64;
+			};
+			name = Debug;
+		};
+		BB2476391D3EC34E005568E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = R9GNBHEXWY;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Analytics",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "GLES_SILENCE_DEPRECATION=1";
+				GLES_SILENCE_DEPRECATION = "";
+				INFOPLIST_FILE = ste/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotea.itaexpress;
+				PRODUCT_NAME = "ITA Express";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB24763B1D3EC34E005568E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = steTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotea.steTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ste.app/ste";
+			};
+			name = Debug;
+		};
+		BB24763C1D3EC34E005568E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = steTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotea.steTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ste.app/ste";
+			};
+			name = Release;
+		};
+		BB24763E1D3EC34E005568E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = steUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotea.steUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ste;
+			};
+			name = Debug;
+		};
+		BB24763F1D3EC34E005568E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = steUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotea.steUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ste;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2476061D3EC34E005568E9 /* Build configuration list for PBXProject "ste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2476351D3EC34E005568E9 /* Debug */,
+				BB2476361D3EC34E005568E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2476371D3EC34E005568E9 /* Build configuration list for PBXNativeTarget "ste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2476381D3EC34E005568E9 /* Debug */,
+				BB2476391D3EC34E005568E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB24763A1D3EC34E005568E9 /* Build configuration list for PBXNativeTarget "steTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB24763B1D3EC34E005568E9 /* Debug */,
+				BB24763C1D3EC34E005568E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB24763D1D3EC34E005568E9 /* Build configuration list for PBXNativeTarget "steUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB24763E1D3EC34E005568E9 /* Debug */,
+				BB24763F1D3EC34E005568E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2476031D3EC34E005568E9 /* Project object */;
+}
